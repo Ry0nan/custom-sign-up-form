@@ -1,0 +1,51 @@
+
+/* page fonts */
+
+/* funnel sans font */
+@font-face {
+    font-family: 'funnelSans';
+    src: url('../assets/fonts/Funnel_Sans/FunnelSans-VariableFont_wght.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* open sans font */
+@font-face {
+    font-family: 'openSans';
+    src: url('../assets/fonts/Open_Sans/OpenSans-VariableFont_wdthwght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* inter font */
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter/Inter-VariableFont_opszwght.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/* title text font */
+.title-text {
+    font-family: 'funnelSans', Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+/* subheading text font */
+.subheading-text {
+    font-family: 'openSans' Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+/* form fonts */
+.form-text {
+    font-family: 'Inter' Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+/* login text */
+.login-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
