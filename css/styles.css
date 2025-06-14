@@ -1,5 +1,5 @@
 
-/* page fonts */
+/* ----- page fonts ----- */
 
 /* funnel sans font */
 @font-face {
@@ -30,12 +30,14 @@
 .title-text {
     font-family: 'funnelSans', Georgia, 'Times New Roman', Times, serif;
     font-size: 3rem;
+    margin-top: 0;
 }
 
 /* subheading text font */
 .subheading-text {
     font-family: 'openSans' Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
+    text-align: left;
 }
 
 /* form fonts */
@@ -48,4 +50,132 @@
 .login-text {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
+}
+
+/* -------------------- */
+
+/* images */
+
+/* persona 3 reload logo picture */
+.p3r-logo {
+    width: 200px;
+    height: 200px;
+}
+
+/* background image */
+.persona-3-picture {
+    background-image: url('../assets/images/p3r-wallpaper.webp');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin-top: 0px;
+    height: 100vh;
+}
+
+/* -------------------- */
+
+/* flexbox control */
+
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-container {
+    width: 40%;
+}
+
+.right-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.description-text {
+    flex: 1;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    align-content: center;
+    line-height: 1;
+    background-color: #6d9ac7;
+}
+
+.sign-up-form {
+    background-color: #1269cc;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.2rem;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.login-text {
+    background-color: #51eefc;
+}
+
+.log-in {
+    flex: 1;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    align-content: center;
+    flex-direction: row;
+    background-color: #51eefc;
+}
+
+/* -------------------- */
+
+/* form control */
+
+/* title text */
+.form-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+/* form radius */
+.form {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* form categories */
+.input,
+.phone-number {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+}
+
+/* -------------------- */
+
+/* buttons */
+
+.log-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
 }
